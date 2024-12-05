@@ -182,5 +182,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Bechir Mathlouthi - bechir.mathlouthi@example.com
+Bechir Mathlouthi
 Project Link: [https://github.com/Bechir-Mathlouthi/eVTOL](https://github.com/Bechir-Mathlouthi/eVTOL) 
