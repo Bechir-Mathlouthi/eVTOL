@@ -77,7 +77,7 @@ eVTOL/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/eVTOL.git
+git clone https://github.com/Bechir-Mathlouthi/eVTOL.git
 cd eVTOL
 ```
 
@@ -182,5 +182,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - your.email@example.com
-Project Link: [https://github.com/yourusername/eVTOL](https://github.com/yourusername/eVTOL) 
+Bechir Mathlouthi - bechir.mathlouthi@example.com
+Project Link: [https://github.com/Bechir-Mathlouthi/eVTOL](https://github.com/Bechir-Mathlouthi/eVTOL) 
