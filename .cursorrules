@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "rules": [
+      {
+        "id": "setup_database",
+        "description": "Create and initialize SQLite database schema",
+        "command": "python setup_database.py",
+        "on_error": "stop",
+        "priority": 1
+      },
+      {
+        "id": "train_traffic_model",
+        "description": "Train the traffic prediction model",
+        "command": "python train_traffic_model.py",
+        "on_error": "log",
+        "priority": 2
+      },
+      {
+        "id": "train_safety_model",
+        "description": "Train the safety risk assessment model",
+        "command": "python train_safety_model.py",
+        "on_error": "log",
+        "priority": 3
+      },
+      {
+        "id": "launch_streamlit",
+        "description": "Run Streamlit frontend for real-time data visualization",
+        "command": "streamlit run app.py",
+        "on_error": "alert",
+        "priority": 4
+      },
+      {
+        "id": "launch_flask",
+        "description": "Run Flask backend and frontend integration",
+        "command": "python app.py",
+        "on_error": "alert",
+        "priority": 5
+      },
+      {
+        "id": "test_system",
+        "description": "Perform integration and functional tests",
+        "command": "python test_system.py",
+        "on_error": "report",
+        "priority": 6
+      },
+      {
+        "id": "deploy_application",
+        "description": "Deploy the system to a server or cloud platform",
+        "command": "bash deploy.sh",
+        "on_error": "skip",
+        "priority": 7
+      }
+    ]
+  }
+  
